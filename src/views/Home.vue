@@ -2,7 +2,7 @@
     <div class="home-container">
         <div class="home-content">
             <Button @click="getUserData">ajax 测试</Button>
-
+            <el-button>按钮</el-button>
             <Input :rows="30" style="margin-top: 20px" v-model="userInfo" type="textarea" />
         </div>
     </div>

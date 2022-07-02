@@ -24,7 +24,7 @@ export const asyncRoutes = {
     home: {
         path: 'home',
         name: 'home',
-        meta: { title: '主页' },
+        meta: { title: '网络实例配置信息管理' },
         component: () => import('../views/Home.vue'),
     },
     t1: {
